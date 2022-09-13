@@ -1,2 +1,2 @@
 # videorent
- Video Rental Application
+ Video Rental Application with Django Framework
