@@ -10,4 +10,5 @@ def index(request):
 
 
 def detail(request, movie_id):
-    pass
+    movie = Movie.objects.get(pk=movie_id)
+    return render(request, 'movies/detail.html', {'movie': movie})
